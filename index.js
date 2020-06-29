@@ -1,4 +1,11 @@
-const nemo = ['nemo'];
+//console.log('Hello Repl');
+
+
+/*const nemo = ['nemo'];
+const everyone = ['hello', 'how', 'are', 'yuo', 'am', 'good', 'thanks', 'for', 'asking', '!']
+
+
+const large = new Array(10000).fill('nemo')
 
 function findNemo(array){
   let t0 = performance.now();
@@ -10,4 +17,14 @@ function findNemo(array){
   let t1 = performance.now();
   console.log("The speed of testing is " + (t1 - t0) + " milliseconds")
 }
-findNemo(nemo);
+findNemo(large);
+*/
+
+const boxes = [0, 1, 2];
+
+function logFirstTwoBoxes(boxes){
+  console.log(boxes[0]); //O(1)
+  console.log(boxes[1]); //O(1)
+}
+
+logFirstTwoBoxes(boxes); //O(2)
