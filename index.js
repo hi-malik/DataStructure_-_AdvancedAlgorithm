@@ -138,3 +138,37 @@ printAllNumbersThenPairSums([1,2,3,4,5,])
 Answer-->
 BIG O (n^2)
 */ 
+
+/*
+//Exercise: Space Complexity
+function booooo(n){
+  for(let i = 0; i < n.length; i++){
+    console.log('booooooo')
+  }
+}
+booooo([1,2,3,4,5]) 
+//O(1)
+
+function arrayOfHinTimes(n){
+  let hiArray = [];
+  for(let i = 0; i < n; i++){
+    hiArray[i] = 'hi';
+  }
+  return hiArray;
+}
+arrayOfHinTimes(8)
+*/
+//O(n)
+
+
+//Exercise: Twitter
+/*
+const array = ['hi', 'my', 'teddy'];
+array[0] //hi = O(1)
+array[array.length-1] //teddy = O(1)
+*/
+//Now the boss say to add date as well.
+/*
+const array = [{tweet: 'hi', date: 2012},{tweet: 'my', date: 2014}, {tweet: 'teddy', date: 2018}];
+//O(n^2)
+*/
