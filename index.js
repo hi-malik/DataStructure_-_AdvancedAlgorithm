@@ -50,6 +50,7 @@ function funChallenge(input) {
 BIG 0 (3+4n)*/
 
 /*
+Rule-1
 // What is the Big O of the below function? (Hint, you may want to go line by line)
 function anotherFunChallenge(input) {
   let a = 5;
@@ -73,3 +74,67 @@ function anotherFunChallenge(input) {
 Answer-->
 BIG O (4+7n)
 */
+
+/*
+//Rule-2
+function printFirstItemThenFirstHalfThenSayHi100Times(items) {
+    console.log(items[0]);
+
+    var middleIndex = Math.floor(items.length / 2);
+    var index = 0;
+
+    while (index < middleIndex) {
+        console.log(items[index]);
+        index++;
+    }
+
+    for (var i = 0; i < 100; i++) {
+        console.log('hi');
+    }
+}
+*/
+/*
+Answer-->
+BIG O (n)
+*/ 
+/*
+//Rule-3
+//log all pair of Arrays
+const boxes = [1, 2, 3, 4, 5];
+
+function logAllPairsOfArrays(array){
+  for(var i = 0; i < array.length; i++){
+    for(var j = 0; j < array.length; j++){
+      console.log(array[i], array[j])
+    }
+  }
+}
+logAllPairsOfArrays(boxes);
+*/
+/*
+Answer-->
+BIG O(n^2)
+*/ 
+
+//Rule-4
+/*
+function printAllNumbersThenPairSums(numbers){
+  console.log('These are there numbers');
+  numbers.forEach(function(number){
+    console.log(number);
+  });
+
+  console.log('these are their sums:');
+  numbers.forEach(function(firstNumber){
+    numbers.forEach(function(secondNumber){
+      console.log(firstNumber + secondNumber);
+    });
+  });
+}
+
+printAllNumbersThenPairSums([1,2,3,4,5,])
+*/
+/*
+Answer-->
+BIG O (n^2)
+*/ 
