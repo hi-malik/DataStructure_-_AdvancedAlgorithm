@@ -238,3 +238,4 @@ containsCommonItem2(array1, array2)
 containsCommonItem3(array1, array2)
 */
 
+//Math.pow(5, 10);
